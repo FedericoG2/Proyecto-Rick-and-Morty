@@ -1,7 +1,7 @@
 /* Imagen de fondo */
 .bgImg {
     
-    background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-fanart-2020-6344.jpg?s=large");
+    background-image: url("https://www.xtrafondos.com/wallpapers/la-ultima-cena-de-rick-y-morty-6568.jpg");
     background-size:cover;
     background-repeat:repeat;
     background-position-x: left;
@@ -16,24 +16,23 @@
 
 
   .mensaje {
-    color: rgb(87, 192, 60);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 84px;
+    color:rgb(0 0 0) ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
   }
 
   .mensaje div {
     align-content: center;
-    margin-left: 200px;
-
-  }
-
-  .mensaje:hover{
-    color:rgba(190, 179, 18, 0.915);
-    font-family: "Source Serif Pro", serif;
-    font-size: 94px;
     
+
   }
 
+ 
   @media screen and (max-width: 425px) {
     .bgImg3 {
       width: 400px;
@@ -45,7 +44,8 @@
   .bgHyC {
     padding: 3px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+   margin-top:560px ;
   }
 
   .bgHyC button {
@@ -54,13 +54,13 @@
     margin-top: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    height: 45px;
+    height: 35px;
     width: 220px;
     padding: 5px;
     text-align: center;
     border: 1px solid #8f8e8e;
     font-family: "DM Sans", sans-serif;
-    background: rgba(127, 219, 21, 0.69);
+    background: #FAF0E6;
     box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.45);
     font-size: 18px;
     font-weight:100;
@@ -69,8 +69,8 @@
   .bgHyC button:hover {
     cursor: pointer;
     transition: background-color 0.5s;
-    background-color: rgb(190, 179, 18);
+    background-color:#D87093;
     color: black;
-    font-weight: bold;
+    
     border: 1px solid #313131;
   }

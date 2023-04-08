@@ -26,8 +26,8 @@ const Search = () => {
 
   return (
     <div>
-        <input  id="search" type="search" placeholder='Write name search character...' onChange={searchHandler} value={name} />
-        <button type="submit" onClick={submitHandler} value={name} >SEARCH</button>
+        <input  id="search" type="search" placeholder='Search a name...' onChange={searchHandler} value={name} />
+        <button type="submit" onClick={submitHandler} value={name} >Search</button>
     </div>
   )
 }

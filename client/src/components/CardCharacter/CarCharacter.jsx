@@ -12,7 +12,7 @@ const CardCharacter = ({name, img, gender, location, id}) => {
             <div className={style.btnI}>
                 <div>
                 <Link to={`/detail/${id}`}>
-                    <h3>{name}</h3>
+                    <h3>{name}</h3>  
                 </Link>
                 </div>
             </div>

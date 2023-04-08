@@ -1,5 +1,5 @@
 .bgImg {
-    background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-en-otro-planeta-6354.jpg?s=large");
+  background-image: url("https://www.xtrafondos.com/wallpapers/la-ultima-cena-de-rick-y-morty-6568.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       position:fixed;
@@ -58,17 +58,18 @@
     
     /************* Fondo Detalle ***************/
     .bgDetail {
-      width: 500px;
-      height: 40%;
+      width: 400px;
+      height: 30%;
+      
       display: flex;
       flex-direction: column;
       text-align: center;
       overflow: hidden;
-      background-color:rgba(127, 219, 21, 0.69);
+      
       border-radius: 20px;
-      box-shadow: 5px 5px 15px 5px #000000;
+      background-color: white;
       margin-top: 100px;
-      margin-left: 5px;
+      margin-left: 20px;
       margin-bottom: 20px;
       padding: 20px 0px;
       font-family: "Source Serif Pro", serif;
@@ -82,8 +83,9 @@
       flex-wrap: nowrap;
       justify-content: center;
       align-items: flex-start;
-      background-color: rgba(202, 193, 186, 0.253);
-      width: 100%;
+      background-color:white;
+      margin-left: 20px;
+      width: 60%;
       height: 100%;
       padding: 10px 0px;
       border-radius: 15px;
@@ -92,7 +94,7 @@
     .contenido label {
       font-family: "DM Sans", sans-serif;
       display: flex;
-      width: 180px;
+      width: 80px;
       justify-content: center;
       font-weight: bold;
     }
@@ -100,7 +102,7 @@
     .contenido h5 {
       font-family: "DM Sans", sans-serif;
       display: flex;
-      width: 180px;
+      width: 80px;
       justify-content: center;
       font-weight: bold;
     }
@@ -174,7 +176,7 @@
       text-align: center;
       border: 1px solid #ffffff;
       font-family: "DM Sans", sans-serif;
-      background: rgba(127, 219, 21, 0.69);
+     
       font-size: 20px;
       font-weight: bold;
       margin: 0px 10px;

@@ -2,8 +2,9 @@
     border-radius: 20px;
     width: 250px;
     height: 400px;
-    background-color: rgba(54, 36, 36, 0.121);
-    color:rgb(20, 20, 20);
+    
+    
+    color:black;
     margin: 0px 10px;
     margin-bottom: 80px;
     box-shadow: 20px 30px 50px 20px rgba(0, 0, 0, 0.45);
@@ -11,14 +12,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 /************* Boton Detalle ***************/
+
 .btnI {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+
+}
+.btnI a {
+    text-decoration: none;
 }
 
 .btnI button {
@@ -29,7 +36,7 @@
     margin-top: 3px;
     margin-right: 3px;
     font-size: 20px;
-    background: rgba(223, 108, 37, 0.69);
+    
 }
 
 .btnI button:hover {
@@ -47,21 +54,26 @@
     justify-content: center;
     text-align: center;
     width: 100%;
-    
+    text-decoration-line: none;
+    background-color: white;
+    opacity: .8;
 }
 
 .btnI h3 {
     display: flex;
     justify-content: center;
     text-align: center;
+    
     margin: 10px;
     margin-top: 15px;
     margin-bottom: 0px;
-    font-family: "Source Serif Pro", serif;
+    font-family: "Arial", serif;
     font-weight:100;
-    font-size: 31px;
+    font-size: 30px;
+    color: black;
+   
    /*  background-color: rgb(221, 124, 59); */
-    background: rgba(127, 219, 21, 0.69);
+    
     border-radius: 5px;
 }
 
@@ -72,11 +84,11 @@
     margin: 10px;
     margin-top: 15px;
     margin-bottom: 0px;
-    font-family: "Source Serif Pro", serif;
+    font-family: "Arial", serif;
     font-weight:100;
-    font-size: 31px;
+    font-size: 25px;
    /*  background-color: rgb(221, 124, 59); */
-    background: rgba(127, 219, 21, 0.69);
+    
     border-radius: 5px;
 } 
 
@@ -87,11 +99,11 @@
     margin: 10px;
     margin-top: 15px;
     margin-bottom: 0px;
-    font-family: "Source Serif Pro", serif;
+    font-family: "Arial", serif;
     font-weight:100;
-    font-size: 21px;
+    font-size: 25px;
    /*  background-color: rgb(221, 124, 59); */
-    background: rgba(127, 219, 21, 0.69);
+   
     border-radius: 5px;
 } 
 
@@ -159,7 +171,7 @@
     top: 0px;
 }
 .h3{
-    color:rgb(9, 48, 35)
+    color:white;
 }
 /************* Health Score ***************/
 .h4 {

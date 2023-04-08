@@ -8,7 +8,7 @@ import { filterCharacter, getCharacters, getGenders, cleanDetail, resetPage, fil
 
 const Home = () => {
     const [order, setOrder] = useState("")
-    const [charactersPerPage, setCharactersPerPage] = useState(6)
+    const [charactersPerPage, setCharactersPerPage] = useState(5)
     const characters = useSelector((state) => state.characters)
     const dispatch = useDispatch();
     const currentPage = useSelector((state)=> state.currentPage)
@@ -66,7 +66,7 @@ const Home = () => {
             <div className={style.bg}>
                 <div className={style.filtroPaginado}>
                     <div className={style.sortFilter}>
-                        <h1>Meet the characters from the Rick and Morty series</h1>
+                        <h1></h1>
                         <div>
                             <button onClick={(e) => handleCharacters(e)}>Refresh</button>
                         </div>
