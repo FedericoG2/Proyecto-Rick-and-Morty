@@ -26,7 +26,7 @@ const getCharactersHandler = async (req, res) => {
 const getCharacterHandler = async (req, res) => {
     const { id } = req.params
     try {
-        const characterId = await getCharacterById(id);
+        const characterId = await getCharacterById(id); // id? await ... ?
         res.status(200).json(characterId)
     } catch (error) {
         res.status(404).json({error:error.message})

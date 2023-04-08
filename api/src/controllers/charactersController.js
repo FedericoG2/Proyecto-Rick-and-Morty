@@ -63,7 +63,7 @@ const getCharacterById = async (id) => {
 
 const createCharacter = async (name, status, species, genderId, location, image) => {
     const newCharacter = await character.create({name, status, species, location, image})
-    await newCharacter.setGender(genderId);
+    await newCharacter.setGender(genderId); //profundizar aca
     return newCharacter;
 };
 
